@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/Login Form.png";
-import emotion from "../../Assets/Projects/News App.png";
 import editor from "../../Assets/Projects/Code Convertor.png";
 import chatify from "../../Assets/Projects/liver-cancer-detection.jpg";
 import loan_image from "../../Assets/Projects/Loan_Approval_Prediction.png";
@@ -12,7 +10,6 @@ import crop_image from "../../Assets/Projects/crop-prediction.png";
 import flower_image from "../../Assets/Projects/flower-prediction.png";
 import smartkart_image from "../../Assets/Projects/smartkart.png";
 import hospital_image from "../../Assets/Projects/hospital_management_system.png";
-import suicide from "../../Assets/Projects/Landing Page.png";
 import bitsOfCode from "../../Assets/Projects/Calculator.png";
 
 function Projects() {
@@ -119,37 +116,6 @@ function Projects() {
               ghLink="https://github.com/Murugavl/ScientificCalculator.git"
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Login Form"
-              description="Designed and created a user-friendly login form in Figma, focusing on clean UI/UX with attention to accessibility and responsiveness. The form includes input fields for username and password, along with a 'Submit' button, and a 'Forgot Password' link for added functionality."
-              demoLink="https://www.figma.com/proto/RnSLA1hVHzTmRmEbjyMl6V/Login-Form?node-id=0-3&scaling=scale-down&content-scaling=fixed&t=r3Ksw6Vrcx7rjk4H-1"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Landing Page"
-              description="Designed and created a visually appealing landing page in Figma, focusing on clean UI/UX with emphasis on accessibility and responsiveness. The page includes sections like a hero image, a clear call-to-action button, and product details, ensuring a smooth user experience across devices.  The design also incorporates strategic use of typography, color schemes, and visual hierarchy to engage visitors and drive conversions."
-              demoLink="https://www.figma.com/proto/wnJx9ImnwR0sixcxBtT4Df/Landing-Page?content-scaling=fixed&kind=proto&node-id=1-5&scaling=scale-down" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="News App"
-              description="Designed and created an engaging news app in Figma, focusing on intuitive UI/UX with emphasis on microinteractions for a dynamic user experience.  The app includes features like smooth transitions between articles, interactive buttons."
-              demoLink="https://www.figma.com/proto/uM1IeZwAChYe3oHc4b3BzK/Cognifyz-Projects?node-id=82-101&starting-point-node-id=82%3A101&t=ZGGyhbfKgXw4X86I-1  "      
-            />
-          </Col>  
-
         </Row>
       </Container>
     </Container>
