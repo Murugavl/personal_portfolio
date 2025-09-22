@@ -19,6 +19,7 @@ function Contact() {
                 () => {
                     console.log('SUCCESS!');
                     toast.success("Message Send Successfully");
+                    form.current.reset();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
