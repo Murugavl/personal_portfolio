@@ -14,14 +14,6 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <FaCode />
-        <p className="h6">C</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-        <p className="h6">C++</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <p className="h6">Python</p>
       </Col>
