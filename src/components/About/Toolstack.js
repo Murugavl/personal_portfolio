@@ -3,13 +3,10 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiVercel,
-  SiAndroidstudio,
   SiPycharm,
   SiJupyter,
   SiAnaconda,
-  SiEclipseche,
   SiGithub,
-  SiFigma,
 } from "react-icons/si";
 
 function Toolstack() {
