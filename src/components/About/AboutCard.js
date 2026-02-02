@@ -11,20 +11,20 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">MURUGAVEL V </span>
             from <span className="purple"> Virudhunagar, India.</span>
             <br />
-            I am currently pursuing my B.Tech degree in Hindusthan Institute of Technology in the field of Artificial Intelligence and Data Science.
+            I am a B.Tech student at Hindusthan Institute of Technology, specializing in Artificial Intelligence and Data Science.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, I enjoy:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring New Technologies
             </li>
             <li className="about-activity">
-              <ImPointRight /> Listening Music
+              <ImPointRight /> Problem Solving
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Gaming & Music
             </li>
           </ul>
 

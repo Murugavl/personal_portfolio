@@ -29,7 +29,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Liver-Cancer Detection"
-              description="This project focuses on detecting liver cancer using various machine learning algorithms. The dataset contains features relevant to liver health, and the goal is to predict whether a patient has liver cancer or not based on these features."
+              description="Developed a machine learning model to detect liver cancer based on patient health markers. The system utilizes advanced classification algorithms to predict diagnosis with high accuracy, assisting in early detection and treatment planning."
               ghLink="https://github.com/Murugavl/liver_cancer_detection.git"
             />
           </Col>
@@ -39,9 +39,9 @@ function Projects() {
               imgPath={loan_image}
               isBlog={false}
               title="Loan Approval Prediction"
-              description="This project is a Loan Approval Prediction System that uses Machine Learning to determine whether a loan application should be approved or rejected based on various factors. It is deployed using Streamlit for an interactive user experience."
-              ghLink="https://github.com/Murugavl/Loan_Approval_Prediction.git"     
-              demoLink="https://loan--approval--prediction.streamlit.app" 
+              description="Built a predictive system using ML to assess loan eligibility based on applicant profiles. Deployed via Streamlit, it provides real-time approval probability, helping financial institutions automate and streamline decision-making."
+              ghLink="https://github.com/Murugavl/Loan_Approval_Prediction.git"
+              demoLink="https://loan--approval--prediction.streamlit.app"
             />
           </Col>
 
@@ -50,18 +50,18 @@ function Projects() {
               imgPath={churn_image}
               isBlog={false}
               title="Customer Churn Prediction"
-              description="Customer churn prediction is a crucial task in business analytics, helping companies identify customers who are likely to leave and take preventive actions. This project utilizes Machine Learning (ML) techniques to analyze customer behavior and predict churn."
-              ghLink="https://github.com/Murugavl/Customer_churn_Prediction.git"  
-              demoLink="https://customer-churnprediction.streamlit.app"     
+              description="Designed an ML solution to predict customer churn for businesses. By analyzing behavioral patterns, the model identifies at-risk customers, enabling companies to take proactive retention measures. Includes a Streamlit dashboard."
+              ghLink="https://github.com/Murugavl/Customer_churn_Prediction.git"
+              demoLink="https://customer-churnprediction.streamlit.app"
             />
-          </Col>         
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crop_image}
               isBlog={false}
-              title="Crop Prediction"
-              description="This Crop Prediction System utilizes machine learning to recommend suitable crops based on environmental data. It helps farmers make informed decisions by analyzing factors like soil type and climate. The system aims to enhance agricultural efficiency and productivity."
+              title="Crop Prediction System"
+              description="Developed an intelligent agricultural recommender system that analyzes soil and climate data to suggest the most suitable crops. This tool aims to optimize yield and sustainable farming practices."
               ghLink="https://github.com/Murugavl/Crop-Prediction.git"
             />
           </Col>
@@ -70,19 +70,19 @@ function Projects() {
             <ProjectCard
               imgPath={flower_image}
               isBlog={false}
-              title="Flower Prediction"
-              description="Flower Prediction is a machine learning project that uses the Iris dataset to classify iris flowers into three species: Setosa, Versicolor, and Virginica. The project includes data analysis, model training with various algorithms, and deployment via a Flask web application for user-friendly predictions."
-              ghLink="https://github.com/Murugavl/Flower-Prediction.git"      
+              title="Flower Species Classification"
+              description="Implemented a multi-class classification model using the Iris dataset to identify flower species. The project demonstrates end-to-end ML workflow from data preprocessing to Flask-based web deployment."
+              ghLink="https://github.com/Murugavl/Flower-Prediction.git"
             />
-          </Col> 
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={smartkart_image}
               isBlog={false}
-              title="SmartKart"
-              description="I have developed a Django-based e-commerce website that features a wide range of items for sale. It provides users with a seamless shopping experience, including product browsing, cart management, and secure checkout. The platform is designed to cater to diverse customer needs with a user-friendly interface and efficient backend management."
-              ghLink="https://github.com/Murugavl/SmartKart.git"      
+              title="SmartKart E-Commerce"
+              description="Built a full-featured Django e-commerce platform with secure user authentication, product management, and cart functionality. The system offers a responsive UI and efficient backend for seamless online shopping."
+              ghLink="https://github.com/Murugavl/SmartKart.git"
             />
           </Col>
 
@@ -91,7 +91,7 @@ function Projects() {
               imgPath={hospital_image}
               isBlog={false}
               title="Hospital Management System"
-              description="This is a Hospital Management System (HMS) developed using Tkinter, the standard GUI toolkit for Python. The system is designed to help hospital staff manage various administrative tasks such as patient records."
+              description="Created a robust desktop application using Python Tkinter for managing hospital records. Features include patient registration, doctor scheduling, and record maintenance, simplifying administrative workflows."
               ghLink="https://github.com/Murugavl/Tkinter-Hospital_Management_System.git"
             />
           </Col>
@@ -100,10 +100,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Code Converter"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Code & Markdown Editor"
+              description="Developed a browser-based code and Markdown editor using React.js. Features live privacy, custom HTML tag support for README generation, and local storage auto-save functionality for a seamless developer experience."
               ghLink="https://github.com/Murugavl/Code-Converter.git"
-              demoLink="https://code-converter.streamlit.app/"              
+              demoLink="https://code-converter.streamlit.app/"
             />
           </Col>
 
@@ -111,8 +111,8 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Scientific Calculator"
-              description="The ScientificCalculator app is a powerful tool designed for Android devices that allows users to perform a wide range of mathematical calculations, including basic arithmetic, trigonometric functions, logarithms, and more. Built using Java in Android Studio, this app provides an intuitive user interface and efficient performance."
+              title="Scientific Calculator App"
+              description="Engineered an Android calculator app using Java, featuring comprehensive mathematical functions and an intuitive UI. Designed for performance and usability on mobile devices."
               ghLink="https://github.com/Murugavl/ScientificCalculator.git"
             />
           </Col>

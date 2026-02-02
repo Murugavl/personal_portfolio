@@ -11,6 +11,12 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {/* Programming Languages */}
+      <Col xs={12} style={{ paddingBottom: "20px" }}>
+        <h3 className="project-heading" style={{ fontSize: "1.5em", paddingTop: "20px" }}>
+          <strong className="purple">Programming Languages</strong>
+        </h3>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
         <p className="h6">Python</p>
@@ -23,6 +29,13 @@ function Techstack() {
         <DiJava />
         <p className="h6">Java</p>
       </Col>
+
+      {/* Databases */}
+      <Col xs={12} style={{ paddingBottom: "20px" }}>
+        <h3 className="project-heading" style={{ fontSize: "1.5em", paddingTop: "20px" }}>
+          <strong className="purple">Databases</strong>
+        </h3>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
         <p className="h6">MySql</p>
@@ -30,6 +43,13 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
         <p className="h6">Mongodb</p>
+      </Col>
+
+      {/* Other Tools */}
+      <Col xs={12} style={{ paddingBottom: "20px" }}>
+        <h3 className="project-heading" style={{ fontSize: "1.5em", paddingTop: "20px" }}>
+          <strong className="purple">Version Control</strong>
+        </h3>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />

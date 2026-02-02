@@ -19,36 +19,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a passionate <b className="purple">AI & Data Science Student</b> with a strong foundation in programming and problem-solving.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am fluent in classics like
               <i>
-                <b className="purple"> C, Python and Java. </b>
+                <b className="purple"> C, Python, and Java. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of interest includes building innovative &nbsp;
               <i>
-                <b className="purple">Machine Learning Projects </b> and
-                also in areas related to{" "}
+                <b className="purple">Machine Learning & Deep Learning </b> solutions and exploring the world of{" "}
                 <b className="purple">
-                  Deep Learning.
+                  Data Analytics.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Python</b> and
+              Whenever possible, I apply my passion for developing scalable products
+              with <b className="purple">Python</b> and modern frameworks like
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Python frameworks and libraries,
+                  Django and Flask.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Django and Flask.</b>
               </i>
             </p>
           </Col>

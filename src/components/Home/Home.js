@@ -30,6 +30,14 @@ function Home() {
               <div className="type-holder">
                 <Type />
               </div>
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <a href="#projects" className="btn btn-primary" style={{ marginRight: "20px" }}>
+                  View Projects
+                </a>
+                <a href="/resume" className="btn btn-primary">
+                  Download Resume
+                </a>
+              </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

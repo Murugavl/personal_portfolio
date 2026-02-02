@@ -30,12 +30,13 @@ function Contact() {
 
 
     return (
-        <Container style={{marginTop: "8%", marginBottom: "5%"}}>
+        <Container style={{ marginTop: "8%", marginBottom: "5%" }}>
             <Particle />
 
             <Container>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <h1 style={{color:"var(--text-main)"}} className='mb-3'>Just Say Hello</h1>
+                    <h1 style={{ color: "var(--text-main)" }} className='mb-3'>Just Say Hello</h1>
+                    <p style={{ color: "white", marginBottom: "30px" }}>Or reach me directly at: <a href="mailto:murugavelv2003@gmail.com" className="purple">murugavelv2003@gmail.com</a></p>
                     <form ref={form} onSubmit={sendEmail} className="st-contact-form w-50" id="contact-form">
                         <div className="input-group">
                             <input className='form-control mb-2 contact-input' type="text" id="name" name="name" placeholder="Your Name" required />
@@ -47,7 +48,7 @@ function Contact() {
                             <input className='form-control mb-2 contact-input' type="text" id="subject" name="subject" placeholder="Your Subject" required />
                         </div>
                         <div className="input-group">
-                            <textarea className='form-control mb-2 contact-input' cols="30" rows="10" id="msg" name="message" placeholder="Your Message" required style={{resize:"none"}}></textarea>
+                            <textarea className='form-control mb-2 contact-input' cols="30" rows="10" id="msg" name="message" placeholder="Your Message" required style={{ resize: "none" }}></textarea>
                         </div>
                         <button className='btn btn-primary' type="submit" id="submit" name="submit">Send Message</button>
                     </form>
