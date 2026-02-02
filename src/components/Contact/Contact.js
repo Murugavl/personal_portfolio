@@ -35,19 +35,19 @@ function Contact() {
 
             <Container>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <h1 style={{color:"white"}} className='mb-3'>Just Say Hello</h1>
+                    <h1 style={{color:"var(--text-main)"}} className='mb-3'>Just Say Hello</h1>
                     <form ref={form} onSubmit={sendEmail} className="st-contact-form w-50" id="contact-form">
                         <div className="input-group">
-                            <input style={{backgroundColor:"inherit", color:"white", borderRadius:"10px", border:"2px solid #53427a"}} className='form-control mb-2' type="text" id="name" name="name" placeholder="Your Name" required />
+                            <input className='form-control mb-2 contact-input' type="text" id="name" name="name" placeholder="Your Name" required />
                         </div>
                         <div className="input-group">
-                            <input style={{backgroundColor:"inherit", color:"white", borderRadius:"10px", border:"2px solid #53427a"}} className='form-control mb-2' type="text" id="email" name="clientemail" placeholder="Your Email" required />
+                            <input className='form-control mb-2 contact-input' type="text" id="email" name="clientemail" placeholder="Your Email" required />
                         </div>
                         <div className="input-group">
-                            <input style={{backgroundColor:"inherit", color:"white", borderRadius:"10px", border:"2px solid #53427a"}} className='form-control mb-2' type="text" id="subject" name="subject" placeholder="Your Subject" required />
+                            <input className='form-control mb-2 contact-input' type="text" id="subject" name="subject" placeholder="Your Subject" required />
                         </div>
                         <div className="input-group">
-                            <textarea style={{backgroundColor:"inherit", color:"white", borderRadius:"10px", resize:"none", border:"2px solid #53427a"}} className='form-control mb-2' cols="30" rows="10" id="msg" name="message" placeholder="Your Message" required></textarea>
+                            <textarea className='form-control mb-2 contact-input' cols="30" rows="10" id="msg" name="message" placeholder="Your Message" required style={{resize:"none"}}></textarea>
                         </div>
                         <button className='btn btn-primary' type="submit" id="submit" name="submit">Send Message</button>
                     </form>

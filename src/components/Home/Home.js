@@ -27,7 +27,7 @@ function Home() {
                 <strong className="main-name"> MURUGAVEL V</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div className="type-holder">
                 <Type />
               </div>
             </Col>
