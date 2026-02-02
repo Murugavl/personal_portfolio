@@ -35,7 +35,7 @@ function Home() {
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="Murugavel V Portfolio Home"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
               />
