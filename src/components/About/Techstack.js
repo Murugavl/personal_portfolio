@@ -38,11 +38,11 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMysql />
-        <p className="h6">MySql</p>
+        <p className="h6">MySQL</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
-        <p className="h6">Mongodb</p>
+        <p className="h6">MongoDB</p>
       </Col>
 
       {/* Other Tools */}

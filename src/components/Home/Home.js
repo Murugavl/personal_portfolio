@@ -16,27 +16,19 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hello!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I AM
                 <strong className="main-name"> MURUGAVEL V</strong>
               </h1>
 
               <div className="type-holder">
                 <Type />
-              </div>
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <a href="#projects" className="btn btn-primary" style={{ marginRight: "20px" }}>
-                  View Projects
-                </a>
-                <a href="/resume" className="btn btn-primary">
-                  Download Resume
-                </a>
               </div>
             </Col>
 

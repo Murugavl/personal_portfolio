@@ -19,26 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a passionate <b className="purple">AI & Data Science Student</b> with a strong foundation in programming and problem-solving.
+              I am an ambitious <b className="purple">AI & Data Science undergraduate</b> with a solid technical foundation in programming and problem-solving.
               <br />
               <br />
-              I am fluent in classics like
+              I possess strong fluency in core languages, including
               <i>
-                <b className="purple"> C, Python, and Java. </b>
+                <b className="purple"> Python, Java, and C. </b>
               </i>
               <br />
               <br />
-              My field of interest includes building innovative &nbsp;
+              My primary areas of interest include developing innovative &nbsp;
               <i>
-                <b className="purple">Machine Learning & Deep Learning </b> solutions and exploring the world of{" "}
+                <b className="purple">Machine Learning & Deep Learning </b> solutions and conducting advanced{" "}
                 <b className="purple">
                   Data Analytics.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I apply my passion for developing scalable products
-              with <b className="purple">Python</b> and modern frameworks like
+              I actively apply my skills to build scalable web applications using <b className="purple">Python</b> and modern frameworks such as
               <i>
                 <b className="purple">
                   {" "}

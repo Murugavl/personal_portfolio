@@ -18,12 +18,12 @@ function Contact() {
             .then(
                 () => {
                     console.log('SUCCESS!');
-                    toast.success("Message Send Successfully");
+                    toast.success("Message Sent Successfully");
                     form.current.reset();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
-                    toast.error("Sorry Error Occured Try again....")
+                    toast.error("Sorry, an error occurred. Please try again.")
                 },
             );
     };
@@ -35,8 +35,8 @@ function Contact() {
 
             <Container>
                 <Row style={{ justifyContent: "center", position: "relative" }}>
-                    <h1 style={{ color: "var(--text-main)" }} className='mb-3'>Just Say Hello</h1>
-                    <p style={{ color: "white", marginBottom: "30px" }}>Or reach me directly at: <a href="mailto:murugavelv2003@gmail.com" className="purple">murugavelv2003@gmail.com</a></p>
+                    <h1 style={{ color: "var(--text-main)" }} className='mb-3'>Get in Touch</h1>
+                    <p style={{ color: "white", marginBottom: "30px" }}>Alternatively, you can reach me at: <a href="mailto:vmv2k05@gmail.com" className="purple">vmv2k05@gmail.com</a></p>
                     <form ref={form} onSubmit={sendEmail} className="st-contact-form w-50" id="contact-form">
                         <div className="input-group">
                             <input className='form-control mb-2 contact-input' type="text" id="name" name="name" placeholder="Your Name" required />
