@@ -12,11 +12,11 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h2 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
+            </h2>
             <p className="home-about-body">
-              I am an ambitious <b className="purple">AI & Data Science undergraduate</b> with a solid technical foundation in programming and problem-solving.
+              I am a passionate <b className="purple">AI & Data Science Developer</b> with a solid technical foundation in programming and problem-solving.
               <br />
               <br />
               I possess strong fluency in core languages, including
@@ -34,24 +34,24 @@ function Home2() {
               </i>
               <br />
               <br />
-              I actively apply my skills to build scalable web applications using <b className="purple">Python</b> and modern frameworks such as
+              I actively apply my skills to build scalable web applications using <b className="purple">Python</b> and modern technologies such as
               <i>
                 <b className="purple">
                   {" "}
-                  Django and Flask.
+                  Django, Flask, MongoDB, and Docker.
                 </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="Murugavel V Avatar" loading="lazy" />
+              <img src={myImg} className="img-fluid" alt="Murugavel V - AI Developer Avatar" loading="lazy" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h2>FIND ME ON</h2>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>

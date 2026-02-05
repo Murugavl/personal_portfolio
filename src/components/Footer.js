@@ -24,6 +24,7 @@ function Footer() {
                 href="https://github.com/Murugavl"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -33,6 +34,7 @@ function Footer() {
                 href="https://www.linkedin.com/in/murugavelv/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>

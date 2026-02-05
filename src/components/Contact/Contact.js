@@ -1,5 +1,4 @@
-import React from 'react'
-import { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 import { Container, Row } from 'react-bootstrap';
@@ -7,6 +6,14 @@ import Particle from '../Particle';
 
 function Contact() {
     const form = useRef();
+
+    useEffect(() => {
+        document.title = "Contact | Murugavel V | AI & Data Science Developer";
+        const metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.setAttribute("content", "Get in touch with Murugavel V for collaborations on AI, Data Science, and Python development projects. Reach out via email or form.");
+        }
+    }, []);
 
     const sendEmail = (e) => {
         e.preventDefault();

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
@@ -7,6 +7,14 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
+  useEffect(() => {
+    document.title = "About | AI & Data Science Developer | Murugavel V";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Learn more about Murugavel V, an AI & Data Science Developer. Expertise in Python, Machine Learning, Deep Learning, and full-stack web development.");
+    }
+  }, []);
+
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -30,18 +38,18 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="Murugavel V About" className="img-fluid" loading="lazy" />
+            <img src={laptopImg} alt="Murugavel V - AI Developer Workstation" className="img-fluid" loading="lazy" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h2 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
-        </h1>
+        </h2>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h2 className="project-heading">
           <strong className="purple">Development Tools</strong>
-        </h1>
+        </h2>
         <Toolstack />
 
       </Container>

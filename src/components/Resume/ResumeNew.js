@@ -17,6 +17,13 @@ function ResumeNew() {
     setWidth(window.innerWidth);
     const handleResize = () => setWidth(window.innerWidth);
     window.addEventListener("resize", handleResize);
+
+    document.title = "Resume | Murugavel V | AI & Data Science Developer";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "View and download the resume of Murugavel V, an AI & Data Science Developer with expertise in Python, Flask, Docker, and Machine Learning.");
+    }
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
@@ -28,6 +35,10 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
+
+        <h1 className="project-heading" style={{ color: "white" }}>
+          My <strong className="purple">Resume</strong>
+        </h1>
 
         <Row className="resume" style={{ maxHeight: "90vh", overflowY: "auto" }}>
           <Document

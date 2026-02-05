@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -13,6 +13,14 @@ import hospital_image from "../../Assets/Projects/hospital_management_system.png
 import bitsOfCode from "../../Assets/Projects/Calculator.png";
 
 function Projects() {
+  useEffect(() => {
+    document.title = "Projects | AI, Data Science, Python & Flask | Murugavel V";
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute("content", "Explore innovative AI, Data Science, and Web Development projects by Murugavel V. Featuring Loan Prediction, Cancer Detection, and E-commerce apps.");
+    }
+  }, []);
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -29,7 +37,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Liver-Cancer Detection"
-              description="Developed a machine learning model to detect liver cancer based on patient health markers. The system utilizes advanced classification algorithms to predict diagnosis with high accuracy, assisting in early detection and treatment planning."
+              description="Developed a machine learning model to detect liver cancer based on patient health markers. The system utilizes advanced classification algorithms (Random Forest, XGBoost) to predict diagnosis with high accuracy, assisting in early detection and treatment planning. Tech Stack: Python, Pandas, Scikit-Learn."
               ghLink="https://github.com/Murugavl/liver_cancer_detection.git"
             />
           </Col>
@@ -39,7 +47,7 @@ function Projects() {
               imgPath={loan_image}
               isBlog={false}
               title="Loan Approval Prediction"
-              description="Built a predictive system using ML to assess loan eligibility based on applicant profiles. Deployed via Streamlit, it provides real-time approval probability, helping financial institutions automate and streamline decision-making."
+              description="Built a predictive system using ML to assess loan eligibility based on applicant profiles. Deployed via Streamlit, it provides real-time approval probability, helping financial institutions automate and streamline decision-making. Tech Stack: Python, Streamlit, Scikit-Learn."
               ghLink="https://github.com/Murugavl/Loan_Approval_Prediction.git"
               demoLink="https://loan--approval--prediction.streamlit.app"
             />
@@ -50,7 +58,7 @@ function Projects() {
               imgPath={churn_image}
               isBlog={false}
               title="Customer Churn Prediction"
-              description="Designed an ML solution to predict customer churn for businesses. By analyzing behavioral patterns, the model identifies at-risk customers, enabling companies to take proactive retention measures. Includes a Streamlit dashboard."
+              description="Designed an ML solution to predict customer churn for businesses. By analyzing behavioral patterns, the model identifies at-risk customers, enabling companies to take proactive retention measures. Includes a Streamlit dashboard. Tech Stack: Python, XGBoost, Streamlit."
               ghLink="https://github.com/Murugavl/Customer_churn_Prediction.git"
               demoLink="https://customer-churnprediction.streamlit.app"
             />
@@ -61,7 +69,7 @@ function Projects() {
               imgPath={crop_image}
               isBlog={false}
               title="Crop Prediction System"
-              description="Developed an intelligent agricultural recommender system that analyzes soil and climate data to suggest the most suitable crops. This tool aims to optimize yield and sustainable farming practices."
+              description="Developed an intelligent agricultural recommender system that analyzes soil and climate data to suggest the most suitable crops. This tool aims to optimize yield and sustainable farming practices. Tech Stack: Python, Flask, Pandas."
               ghLink="https://github.com/Murugavl/Crop-Prediction.git"
             />
           </Col>
@@ -71,7 +79,7 @@ function Projects() {
               imgPath={flower_image}
               isBlog={false}
               title="Flower Species Classification"
-              description="Implemented a multi-class classification model using the Iris dataset to identify flower species. The project demonstrates end-to-end ML workflow from data preprocessing to Flask-based web deployment."
+              description="Implemented a multi-class classification model using the Iris dataset to identify flower species. The project demonstrates end-to-end ML workflow from data preprocessing to Flask-based web deployment. Tech Stack: Python, Flask, HTML/CSS."
               ghLink="https://github.com/Murugavl/Flower-Prediction.git"
             />
           </Col>
@@ -81,7 +89,7 @@ function Projects() {
               imgPath={smartkart_image}
               isBlog={false}
               title="SmartKart E-Commerce"
-              description="Built a full-featured Django e-commerce platform with secure user authentication, product management, and cart functionality. The system offers a responsive UI and efficient backend for seamless online shopping."
+              description="Built a full-featured Django e-commerce platform with secure user authentication, product management, and cart functionality. The system offers a responsive UI and efficient backend for seamless online shopping. Tech Stack: Python, Django, SQLite, Bootstrap."
               ghLink="https://github.com/Murugavl/SmartKart.git"
             />
           </Col>
@@ -91,7 +99,7 @@ function Projects() {
               imgPath={hospital_image}
               isBlog={false}
               title="Hospital Management System"
-              description="Created a robust desktop application using Python Tkinter for managing hospital records. Features include patient registration, doctor scheduling, and record maintenance, simplifying administrative workflows."
+              description="Created a robust desktop application using Python Tkinter for managing hospital records. Features include patient registration, doctor scheduling, and record maintenance, simplifying administrative workflows. Tech Stack: Python, Tkinter, SQLite."
               ghLink="https://github.com/Murugavl/Tkinter-Hospital_Management_System.git"
             />
           </Col>
@@ -101,7 +109,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Code & Markdown Editor"
-              description="Developed a browser-based code and Markdown editor using React.js. Features live privacy, custom HTML tag support for README generation, and local storage auto-save functionality for a seamless developer experience."
+              description="Developed a browser-based code and Markdown editor using React.js. Features live privacy, custom HTML tag support for README generation, and local storage auto-save functionality for a seamless developer experience. Tech Stack: React.js, Node.js."
               ghLink="https://github.com/Murugavl/Code-Converter.git"
               demoLink="https://code-converter.streamlit.app/"
             />
@@ -112,7 +120,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Scientific Calculator App"
-              description="Engineered an Android calculator app using Java, featuring comprehensive mathematical functions and an intuitive UI. Designed for performance and usability on mobile devices."
+              description="Engineered an Android calculator app using Java, featuring comprehensive mathematical functions and an intuitive UI. Designed for performance and usability on mobile devices. Tech Stack: Java, Android Studio."
               ghLink="https://github.com/Murugavl/ScientificCalculator.git"
             />
           </Col>
